@@ -26,16 +26,16 @@ $ nvm install 18.12.1
 ```
 
 ## Setup
-Once you have the desired Node versions, simply clone the repository into your root `Relay` projects folder. 
+Once you have the desired Node versions, simply clone the repository into your root `Project` projects folder. 
 
-> `NOTE: You don't need to clone it onto this Relay folder for this to work, its just nice and neat to have every related project in one place.`
+> `NOTE: You don't need to clone it onto this Project folder for this to work, its just nice and neat to have every related project in one place.`
 
 ```shell
-$ git clone git@ssh.dev.azure.com:v3/d6-group/d6%20Relay/relay-web
+$ git clone git@github.com:KeithNdhlovu/vite-react-template.git
 ```
 
 ```shell
-$ cd relay-web
+$ cd vite-react-template
 ```
 
 Install project dependencies
