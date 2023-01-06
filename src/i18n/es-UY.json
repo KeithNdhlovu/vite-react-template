@@ -1,0 +1,5 @@
+{
+  "utils.format": "{{text, uppercase}}",
+  "general.loading": "Cargando",
+  "general.error": "Error"
+}

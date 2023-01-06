@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@relay/base/*": ["*"],
+      "@relay/api/*": ["src/api/*"],
+      "@relay/i18n/*": ["src/i18n/*"],
+      "@relay/hooks/*": ["src/hooks/*"],
+      "@relay/mocks/*": ["src/mocks/*"],
+      "@relay/types": ["src/types/index"],
+      "@relay/redux/*": ["src/redux/*"],
+      "@relay/pages/*": ["src/pages/*"],
+      "@relay/styles/*": ["src/styles/*"],
+      "@relay/helpers/*": ["src/helpers/*"],
+      "@relay/layouts/*": ["src/layouts/*"],
+      "@relay/services/*": ["src/services/*"],
+      "@relay/interfaces": ["src/interfaces/index"],
+      "@relay/components/*": ["src/components/*"],
+    }
+  },
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "vite.config.ts"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

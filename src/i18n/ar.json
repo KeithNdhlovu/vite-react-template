@@ -1,0 +1,5 @@
+{
+  "utils.format": "{{text, uppercase}}",
+  "general.loading": "جاري التحميل",
+  "general.error": "Error"
+}

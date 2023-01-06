@@ -1,0 +1,6 @@
+{
+  "utils.format": "{{text, uppercase}}",
+  "general.loading": "Loading",
+  "general.error": "Error",
+  "home.button.get-profile": "Get Profile"
+}
